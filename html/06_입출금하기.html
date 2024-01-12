@@ -49,11 +49,14 @@
 
 
     <div class="bank">
-        <div>잔액 : 10000 원</div>
+        <div>잔액 : <span id="balance"></span> 원</div>
         <div>금액 : <input type="number" id="input"></div>
         <br>
-        <button onclick="deposit()">입금</button>
-        <button onclick="withdrawal()">출금</button>
+        
+        <div>
+            <button onclick="deposit()">입금</button>
+            <button onclick="withdrawal()">출금</button>
+        </div>
     </div>
 
 
