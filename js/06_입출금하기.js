@@ -18,3 +18,10 @@ function test(){
         }
     }
 }
+
+
+const amount = document.getElementById("input");
+
+let balance
+
+const password =
