@@ -10,7 +10,7 @@ function externalFn(){
 // 버튼 클릭 시 body 태그의 글자색, 배경색을 변경
 
 const body = document.querySelector("body"); /* body 태그 선택 */
-
+            // ()안에꺼 선택해라
 
 /* 실행되면 다크모드로 바꾸는 함수(기능) */
 function darkMode(){

@@ -24,6 +24,10 @@ console.log(number1);
 
 
 /* 변수 선언 + 대입 */
+
+// var naumber2
+// number2 = 20; 이면, number2가 같으니까 둘이 합쳐
+
 var number2 = 20;
 
 console.log(number2);
@@ -40,7 +44,8 @@ number2 = 400;
 
 /* 변경된 두 변수의 값 출력 */
 
-/* 1) 문자열 + 문자열/숫자/변수 == 이어쓰기 */
+/* 1) 문자열 + 문자열or숫자or변수 == 이어쓰기 */
+
 console.log( "number1의 값 : " + number1 );
 console.log( "number2의 값 : " + number2 );
 
