@@ -63,4 +63,4 @@ function withdrawal(){ //출금
 
 balance= balance + input
 
-balance.innerText = balance
+balance.innerText = Number(balance)+Number(input);

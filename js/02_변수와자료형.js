@@ -136,6 +136,7 @@ console.log("isFalse:",isFalse,typeof isFalse);
 // 값을 여러 개 저장할 수 있는 형태
 
 // 1) 배열(array) : 여러 값이 나열되어 있는 것의 묶음
+// const numbers = 10,20,30 ; ->이렇게 안됨. 따로따로 있음
 const numbers = [10,20,30 ];
 
 console.log("numbers:", numbers, typeof numbers);

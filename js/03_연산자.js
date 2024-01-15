@@ -6,7 +6,7 @@
 // ById : 아이디가 일치하는
 
 
-// -> HTML 문서 ()내에서 아이디가 일치하는 요소를 얻어오겠다
+// -> HTML 문서 ()내에서 아이디가 일치하는 요소를 얻어오겠다(객체를 얻어오겠다)
 const number1 = document.getElementById("input1");
 
 const number2 = document.getElementById("input2");
@@ -24,7 +24,7 @@ function plusFn(){
     console.log(value1, value2);
 
     console.log("두 수의 합 : ", value1 +value2);
-    // -> input 요소에 작성된 값은 무조건 문자영(string) 형태라서
+    // -> input 요소에 작성된 값은 무조건 문자열(string) 형태라서
     //  더했을 때 이어쓰기 되는 문제가 발생한다!!!
 
     // [해결방법]
@@ -40,7 +40,7 @@ console.log ("두 수의 합: ",Number(value1) + Number(value2));
 
 
 
-/* 두 수의 합을 아이디가 calcResult인 요소의
+/* 두 수의 합을 아이디가 "calcResult"인 요소(result 변수)의
 내부 글자(innerText, HTML 요소 내용)으로 대입하기 */
 
 result.innerText = Number(value1) + Number(value2);
