@@ -1,6 +1,6 @@
-/* prompt 사용 연습 */
+/*  prompt 사용 연습 */
 
-/* function test(){
+ function test(){
     const password = prompt("비밀번호를 입력하세요");
 
     // 확인 -> 입력한 문자열
@@ -18,7 +18,7 @@
         }
     }
 }
- */
+
 
 //----------------------------------------------------------------
 const output = document.getElementById("output");
@@ -32,7 +32,7 @@ output.innerText = balance;
 
  //입금
 function deposit(){
-    if(amount.value == 0){
+    if(amount.value.length == 0){
         alert("금액을 입력해주세요")
     } else {
         balance += Number(amount.value)
@@ -47,28 +47,40 @@ function deposit(){
 
 function withdrawal(){ //출금
 
-    if(amount.value.length = 0){
+    if(amount.value.length == 0){
         alert("금액을 입력해주세요")
+
     } else {
-        balance -= Number(amount.value)
-        output.innerHTML = balance;
 
-        amount.value= "";
-    }
+        const password = prompt("비밀번호를 입력하세요");
+        
+        if(password == null){
+            alert("취소")
+        } else{
 
+            if(password != '1234'){
+                alert("비밀번호가 일치하지 않습니다");
 
+            } else {
+                const mon = Number(amount.value)
+            }
 
-    const password = prompt("비밀번호를 입력하세요");
-
-    if(password == null){
-        alert("취소")
-    } else{
-        if(password == 1234){
-            alert("비밀번호 일치")
-        } else {
-            alert("비밀번호가 일치하지 않슴")
         }
     }
 
 }
+
+
+
+
+    // if
+    // } else{
+    //     if(password == 1234){
+    //         alert("비밀번호 일치")
+    //     } else {
+    //         alert("비밀번호가 일치하지 않슴")
+    //     }
+    // }
+
+
 
