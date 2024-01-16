@@ -1,6 +1,6 @@
 /* prompt 사용 연습 */
 
-function test(){
+/* function test(){
     const password = prompt("비밀번호를 입력하세요");
 
     // 확인 -> 입력한 문자열
@@ -18,17 +18,19 @@ function test(){
         }
     }
 }
+ */
 
-
+const output = document.getElementById("output");
 const amount = document.getElementById("input");
 
-let balance = document.getElementById("balance");
-// let balance = 10000;
+let balance = 10000;       // 잔액 기록 변수 (초기값 10000)
+const password = '1234';     //비밀번호 저장 변수(초기 비밀번호 1234)
 
-const password = 1234;
+output.innerText = balance;
 
 
-function deposit(){ //입금
+ //입금
+function deposit(){
 
 }
 
