@@ -20,6 +20,7 @@
 }
  */
 
+//----------------------------------------------------------------
 const output = document.getElementById("output");
 const amount = document.getElementById("input");
 
@@ -31,11 +32,29 @@ output.innerText = balance;
 
  //입금
 function deposit(){
+    if(amount.value == 0){
+        alert("금액을 입력해주세요")
+    } else {
+        balance += Number(amount.value)
+        output.innerText = balance;
+
+        amount.value = "";
+
+    }
 
 }
 
 
 function withdrawal(){ //출금
+
+    if(amount.value.length = 0){
+        alert("금액을 입력해주세요")
+    } else {
+        balance -= Number(amount.value)
+        output.innerHTML = balance;
+
+        amount.value= "";
+    }
 
 
 
@@ -53,15 +72,3 @@ function withdrawal(){ //출금
 
 }
 
-
-
- 밸런스에 입금(더하기)값 출력
- 밸런스에 출금(빼기) 값 출력
- 인데 이제 10000에서부터 시작
- 인데 0이하는 안되고
- 패스워드는 1234 이외에 안됨
- 흠?
-
-balance= balance + input
-
-balance.innerText = Number(balance)+Number(input);
