@@ -59,7 +59,6 @@ function withdrawal(){ //출금
  인데 0이하는 안되고
  패스워드는 1234 이외에 안됨
  흠?
- 갸아아아아앙아아아아앙아앙아아몰라몰랄몰라몰라몰라몰라몰라
 
 balance= balance + input
 
