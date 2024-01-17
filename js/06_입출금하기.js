@@ -62,7 +62,7 @@ function withdrawal(){ //출금
                 alert("비밀번호가 일치하지 않습니다");
 
             } else {
-                const mon = Number(amount.value)
+                const mon = Number(amount.value);
             }
 
         }
