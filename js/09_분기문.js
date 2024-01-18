@@ -2,7 +2,6 @@
 /* break 확인 */
 
 function check1(){
-
     // 1부터 10까지 1씩 증가하다가 5가되면 멈춤
     for(let i = 1; i <=10; i++){
 
