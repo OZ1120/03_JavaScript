@@ -60,7 +60,7 @@ function classTest2(){
 /* 태그명으로 요소 접근하기 */
 function tagNameTest(){
 
-    //  HTML 문서에 존재하는 모든 oi 채그 요소를 얻어와
+    //  HTML 문서에 존재하는 모든 oi 태그 요소를 얻어와
     //  배열로 묶어서 반환
     const tagList = document.getElementsByTagName("li");
 
