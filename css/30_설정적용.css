@@ -1,0 +1,25 @@
+#container{
+  border: 1px solid black;
+  width: 500px;
+  margin-left: 50px;
+
+}
+
+.innerBox{
+  display: inline-block;
+}
+
+#width{
+  text-align: center;
+  width: 60px;
+}
+#heigth{
+  width: 60px;
+}
+
+#text6{
+  width: 200px;
+}
+#active{
+
+}

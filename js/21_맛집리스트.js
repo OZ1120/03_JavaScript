@@ -1,3 +1,5 @@
+
+
 /* Restaurant 생성자 함수 */
 function Restaurant(resName, resAddress, resMenu){
 
