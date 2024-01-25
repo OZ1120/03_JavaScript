@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+
+#test-tabel{
+  display: flex;
+  margin: 30px;
+}
+/* 번호 입력되는 곳 */
+#input{
+  width: 310px; height: 40px;
+  font-size: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 번호판 */
+#table{
+  border-top: 1px solid rgb(199, 199, 199);
+  width: 310px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.number{
+  /* border: 1px solid black; */
+  border-radius: 50%;
+
+  font-size: 30px;
+  font-weight: bold;
+  width: 100px ;  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.number:hover{
+  background-color: gainsboro;
+  cursor: pointer;
+}
+/* 추가버튼 */
+#add{
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  width: 300px;
+  color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#add:hover{
+  background-color: green;
+  color: white;
+}
+/* 초기화버튼 */
+#reset{
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  width: 300px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#reset:hover{
+  background-color: gray;
+  color: white;
+}
+/* 전화번호 목록 */
+#test2{
+  width: 210px;
+  margin-left: 10px;
+  border-left: 1px solid rgb(199, 199, 199);
+  font-size: 15px;
+}
+
+#test2>span{
+  font-weight: bold;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+.resultBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result{
+  width: 130px;
+}
+.bookmark,.remove{
+  width: 20px;
+}
+.remove,.bookmark:hover{
+  cursor: pointer;
+}
