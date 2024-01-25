@@ -22,7 +22,6 @@ reset.addEventListener("click", ()=>{
 
 // 추가 버튼
 add.addEventListener("click", ()=>{
-
   /* 요소 추가 */
   const resultBox =document.createElement("div");
   resultBox.classList.add("resultBox");
@@ -45,6 +44,7 @@ add.addEventListener("click", ()=>{
       bookmark.style.color=("black")
       result.style.color=("black")
     }
+   
   })
 
   /* 요소 제거 */
@@ -58,5 +58,7 @@ add.addEventListener("click", ()=>{
   // 자식으로 추가
   resultBox.append(result, bookmark, remove);
   test2.append(resultBox)
+
+  input.textContent="";
 })
 
